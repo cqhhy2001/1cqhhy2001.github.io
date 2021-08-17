@@ -27,6 +27,8 @@
 
 
 
+    <link rel="dns-prefetch" href="https://qamoe.disqus.com"/>
+
 
 
 
@@ -458,30 +460,30 @@
                 <!-- Post Comments -->
                 
                     
-    <!-- 使用 Gitalk -->
-<div id="gitalk-comment">
-    <!-- Gitalk 评论框 -->
-<div id="gitalk-container"></div>
-
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<script>
-    var gitalk = new Gitalk({
-            clientID: '8a9c7fc5dcd005422ac5',
-            clientSecret: '0d11a788ba9705045e099858992a044de1f99211',
-            repo: 'https://github.com/cqhhy2001/cqhhy2001.github.io',
-            owner: 'cqhhy2001',
-            admin: ['cqhhy2001'],
-            // facebook-like distraction free mode
-            distractionFreeMode: false
-        })
-   gitalk.render('gitalk-container')
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://cqhhy2001.github.io/about/index.html';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://cqhhy2001.github.io/about/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
 </script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//qamoe.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
 </div>
 <style>
-    #gitalk-comment {
+    #disqus-comment{
         background-color: #eee;
         padding: 2pc;
     }
@@ -848,7 +850,8 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
-   <!-- GitTalk -->
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//qamoe.disqus.com/count.js" async></script>
 
 
 
