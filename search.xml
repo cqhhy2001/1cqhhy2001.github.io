@@ -8,7 +8,7 @@
       <link href="/2021/08/23/HEXO%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF.html"/>
       <url>/2021/08/23/HEXO%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF.html</url>
       
-        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>在今天上午第一次为博客使用 Markdown 语法插入图片的时候,无论如何配置,均无法正常引用图片,经过一番查找,现找到一个完美且简洁的解决方案</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>首先安装 hexo-asset-image 插件<br><code>npm install hexo-asset-image --save</code></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>在今天上午第一次为博客使用 Markdown 语法插入图片的时候,无论如何配置,均无法正常引用图片,经过一番查找,现找到一个完美且简洁的解决方案</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>首先安装 hexo-asset-image 插件<br><code>npm install hexo-asset-image --save</code><br>然后打开你博客根目录下的 <code>_config.yml</code><br>修改位于 <code>#writing</code> 下的 <code>post_asset_folder</code> 的值为 <code>true</code> 并保存<br>使用 <code>hexo new post title</code> 创建一个新的页面,这时, <code>source/_posts</code> 下会生成一个新文章和与其同名文件夹;如之前已有文章则可在 <code>source/_posts</code> 创建与现有文章的同名文件夹即可<br>将你要插入的图片放入与文章同名的文件夹<br>在文章中使用 Markdown语法 <code>![alt_text](image.jpg)</code> 即可插入图片</p><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><ol><li>此方法操作简单,无需额外代码</li><li>目录整洁,,容易寻找对应文件,也方便以后修改</li></ol><h2 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h2><p>效率低下,,每张图片需要手动输入 Markdown 语句,如果需要同时插入大量图片,工作量过大</p>]]></content>
       
       
       <categories>
@@ -27,7 +27,7 @@
       <link href="/2021/08/23/how-to-apply-for-a-partner-link.html"/>
       <url>/2021/08/23/how-to-apply-for-a-partner-link.html</url>
       
-        <content type="html"><![CDATA[<h2 id="Requirments"><a href="#Requirments" class="headerlink" title="Requirments"></a>Requirments</h2><p><code>SITE</code> - Please provide the URL of the site.<br><code>ICON</code> - Please provide the uncompressed site icon.<br><code>DESCR</code>- Please provide the description of your site, no more than 15 chinese charaters.</p><h2 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h2><p>send the info I mentioned above to me, grab a coffe, sit back and relax.</p><h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p><a href="https://t.me/">Telegram</a></p><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><img src="/2021/08/23/title/Demo.jpg"></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Requirments"><a href="#Requirments" class="headerlink" title="Requirments"></a>Requirments</h2><p><code>SITE</code> - Please provide the URL of the site.<br><code>ICON</code> - Please provide the uncompressed site icon.<br><code>DESCR</code>- Please provide the description of your site, no more than 15 chinese charaters.</p><h2 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h2><p>send the info I mentioned above to me, grab a coffe, sit back and relax.</p><h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p><a href="https://t.me/">Telegram</a></p><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><img src="/2021/08/23/how-to-apply-for-a-partner-link/Demo.jpg"></p>]]></content>
       
       
       <categories>
@@ -72,7 +72,7 @@
       <link href="/2021/08/12/hello-world.html"/>
       <url>/2021/08/12/hello-world.html</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
@@ -81,6 +81,17 @@
     
   
   
+    
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
     
     
     <entry>
@@ -98,17 +109,6 @@
       <title>gallery</title>
       <link href="/gallery/index.html"/>
       <url>/gallery/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
