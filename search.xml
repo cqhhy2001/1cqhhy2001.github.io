@@ -5,11 +5,17 @@
     
     <entry>
       <title>HEXO插入图片的正确姿势</title>
-      <link href="/2021/08/23/title.html"/>
-      <url>/2021/08/23/title.html</url>
+      <link href="/2021/08/23/HEXO%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF.html"/>
+      <url>/2021/08/23/HEXO%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>在今天上午第一次为博客使用 Markdown 语法插入图片的时候,无论如何配置,均无法正常引用图片,经过一番查找,现找到一个完美且简洁的解决方案</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>首先安装 hexo-asset-image 插件<br><code>npm install hexo-asset-image --save</code></p>]]></content>
       
+      
+      <categories>
+          
+          <category> tech </category>
+          
+      </categories>
       
       
     </entry>
@@ -18,8 +24,8 @@
     
     <entry>
       <title>How to Apply for a Partner Link</title>
-      <link href="/2021/08/23/title.html"/>
-      <url>/2021/08/23/title.html</url>
+      <link href="/2021/08/23/how-to-apply-for-a-partner-link.html"/>
+      <url>/2021/08/23/how-to-apply-for-a-partner-link.html</url>
       
         <content type="html"><![CDATA[<h2 id="Requirments"><a href="#Requirments" class="headerlink" title="Requirments"></a>Requirments</h2><p><code>SITE</code> - Please provide the URL of the site.<br><code>ICON</code> - Please provide the uncompressed site icon.<br><code>DESCR</code>- Please provide the description of your site, no more than 15 chinese charaters.</p><h2 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h2><p>send the info I mentioned above to me, grab a coffe, sit back and relax.</p><h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p><a href="https://t.me/">Telegram</a></p><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><img src="/2021/08/23/title/Demo.jpg"></p>]]></content>
       
@@ -37,8 +43,8 @@
     
     <entry>
       <title>七夕快乐</title>
-      <link href="/2021/08/14/title.html"/>
-      <url>/2021/08/14/title.html</url>
+      <link href="/2021/08/14/%E4%B8%83%E5%A4%95%E5%BF%AB%E4%B9%90.html"/>
+      <url>/2021/08/14/%E4%B8%83%E5%A4%95%E5%BF%AB%E4%B9%90.html</url>
       
         <content type="html"><![CDATA[<p>2021 七夕快乐,借助这七夕的尾巴,祝愿大家有情人终成眷属!<br>在此放一首初中时期英语课上课前唱的一首歌曲,希望可以喜欢<br><del>所以我什么时候才能有对象呢</del></p><hr><p>庆祝本站第一次可以播放视频</p><hr><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":true,"screenshot":true,"video":{"url":"/videos/Boys Like Girls - Two Is Better Than One.mkv"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>]]></content>
       
@@ -50,8 +56,8 @@
     
     <entry>
       <title>post</title>
-      <link href="/2021/08/12/title.html"/>
-      <url>/2021/08/12/title.html</url>
+      <link href="/2021/08/12/post.html"/>
+      <url>/2021/08/12/post.html</url>
       
         <content type="html"><![CDATA[<p>这个博客的诞生离不开 Piggy 的鼎力相助</p>]]></content>
       
@@ -63,8 +69,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2021/08/12/title.html"/>
-      <url>/2021/08/12/title.html</url>
+      <link href="/2021/08/12/hello-world.html"/>
+      <url>/2021/08/12/hello-world.html</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
