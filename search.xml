@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>How to Apply for a Partner Link</title>
+      <link href="/2021/08/23/title.html"/>
+      <url>/2021/08/23/title.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Requirments"><a href="#Requirments" class="headerlink" title="Requirments"></a>Requirments</h2><p><code>SITE</code> - Please provide the URL of the site.<br><code>ICON</code> - Please provide the uncompressed site icon.<br><code>DESCR</code>- Please provide the description of your site, no more than 15 chinese charaters.</p><h2 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h2><p>send the info I mentioned above to me , grab a coffe ,sit back and relax.</p><h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p><a href="https://t.me/">Telegram</a></p><h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p><img src="example.png" alt="Example"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> uncategorized </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>七夕快乐</title>
       <link href="/2021/08/14/title.html"/>
       <url>/2021/08/14/title.html</url>
@@ -46,17 +65,6 @@
     
     
     <entry>
-      <title>links</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -71,6 +79,17 @@
       <title>gallery</title>
       <link href="/gallery/index.html"/>
       <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>links</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
