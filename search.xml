@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>HEXO插入图片的正确姿势</title>
+      <link href="/2021/08/23/title.html"/>
+      <url>/2021/08/23/title.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>How to Apply for a Partner Link</title>
       <link href="/2021/08/23/title.html"/>
       <url>/2021/08/23/title.html</url>
@@ -65,9 +78,9 @@
     
     
     <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>links</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -87,9 +100,9 @@
     
     
     <entry>
-      <title>links</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
