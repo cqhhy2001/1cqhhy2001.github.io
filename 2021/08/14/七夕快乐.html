@@ -27,8 +27,6 @@
 
 
 
-    <link rel="dns-prefetch" href="https://imsun.github.io"/>
-
 
 
 
@@ -521,32 +519,34 @@
                 <!-- Post Comments -->
                 
                     
-    <!-- 使用 gitcoment -->
-<div id="gitment-comment">
-    <!-- Gitment 评论框 -->
-<div id="container"></div>
+    <!-- 使用 Gitalk -->
+<div id="gitalk-comment">
+    <!-- Gitalk 评论框 -->
+<div id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script>
+    var gitalk = new Gitalk({
+            clientID: '8a9c7fc5dcd005422ac5',
+            clientSecret: '12c8bbbb1cad104897daed2520d01057711d9b65',
+            repo: 'cqhhy2001.github.io',
+            owner: 'cqhhy2001',
+            admin: ['cqhhy2001'],
+            // facebook-like distraction free mode
+            distractionFreeMode: false
+        })
+   gitalk.render('gitalk-container')
+</script>
 </div>
 <style>
-    #gitment-comment{
+    #gitalk-comment {
         background-color: #eee;
         padding: 2pc;
     }
 </style>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-    var gitment = new Gitment({
-        id: 'https://cqhhy2001.github.io/2021/08/14/%E4%B8%83%E5%A4%95%E5%BF%AB%E4%B9%90.html', // 可选。默认为 location.href
-        owner: 'cqhhy2001',
-        repo: 'cqhhy2001.github.io',
-        oauth: {
-            client_id: '750b27dd8132b5c72a78',
-            client_secret: '833941a8d6425d2b2f2dea88cfea17594d24f184',
-        },
-    })
-    gitment.render('container')
-</script>
-
 
                 
             </div>
@@ -933,7 +933,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
-   <!-- Gitment -->
+   <!-- GitTalk -->
 
 
 
