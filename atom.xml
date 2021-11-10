@@ -6,7 +6,7 @@
   <link href="https://qamoe.cyou/atom.xml" rel="self"/>
   
   <link href="https://qamoe.cyou/"/>
-  <updated>2021-09-17T05:45:06.984Z</updated>
+  <updated>2021-11-10T09:33:10.946Z</updated>
   <id>https://qamoe.cyou/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Font problem with the display of Chinese content in the Telegram Windows client</title>
+    <link href="https://qamoe.cyou/2021/11/10/9b92eca623f2"/>
+    <id>https://qamoe.cyou/2021/11/10/9b92eca623f2</id>
+    <published>2021-11-10T09:30:53.000Z</published>
+    <updated>2021-11-10T09:33:10.946Z</updated>
+    
+    <content type="html"><![CDATA[<p>For a long time, the display of Chinese characters in the TG client has been the worst of the worst.</p><p> As the successful KSYX says </p><blockquote><p>门上插刀 直字拐弯 天顶加盖 船顶漏雨 </p></blockquote><p><img src="/2021/11/10/9b92eca623f2/Fontrendering.png" alt="Fontrendering"></p><p> Such poor display quality is frustrating, even infuriating. </p><p>To solve this problem, I went online and looked up information.</p><p>Here is my current system information</p><pre><code>OS: Windows 11 ProVersion: 21H2OS Build: 22000.318Language: EN-US ZH-CN Telegram Version: 3.2.1 X64</code></pre><p>Start with the <a href="https://github.com/ysc3839/FontMod">FontMod</a> project.</p><p>After I learned about <a href="https://github.com/ysc3839/FontMod/issues/70">Issue70</a> ,this method failed</p><p>Then I adjusted the Fontlink setting in the registry</p><p>Open Registry Editor and go to </p><pre><code>Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink\Segoe UI</code></pre><p>Change the value to the following content</p><pre><code>TAHOMA.TTF,TahomaMSYH.TTC,Microsoft YaHei UI,128,96MSYH.TTC,Microsoft YaHei UIMSJH.TTC,Microsoft Jhenghei UI,128,96MSJH.TTC,Microsoft Jhenghei UIMEIRYO.TTC,Meiryo UI,128,96MEIRYO.TTC,Meiryo UISIMSUN.TTC,SimSunMINGLIU.TTC,PMingLiUMSGOTHIC.TTC,MS UI GothicMALGUN.TTF,Malgun Gothic,128,96MALGUN.TTF,Malgun GothicGULIM.TTC,GulimYUGOTHM.TTC,Yu Gothic UI,128,96YUGOTHM.TTC,Yu Gothic UISEGUISYM.TTF,Segoe UI Symbol</code></pre><p>However the problem still remains.</p><p>This problem has been bothering me for a long time, until today I was chatting in the TG group and someone told me that he had changed the region format to China, Chinese and everything worked fine.</p><p>Open Windows Settings, Navigate to Time and Language, then Language &amp; Region , in the region Section, change regional format to Chinese (Simplified, China) .</p><p>Restart the Telegram client, and everything worked fine.</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;For a long</summary>
+        
+      
+    
+    
+    
+    <category term="tech" scheme="https://qamoe.cyou/categories/tech/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>dQw4w9WgXcQ</title>
@@ -110,29 +135,6 @@
     
     
     <category term="uncategorized" scheme="https://qamoe.cyou/categories/uncategorized/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>七夕快乐</title>
-    <link href="https://qamoe.cyou/2021/08/14/9231d7697edc"/>
-    <id>https://qamoe.cyou/2021/08/14/9231d7697edc</id>
-    <published>2021-08-14T14:50:14.000Z</published>
-    <updated>2021-09-15T04:37:45.705Z</updated>
-    
-    <content type="html"><![CDATA[<p>2021 七夕快乐,借助这七夕的尾巴,祝愿大家有情人终成眷属!<br>在此放一首初中时期英语课上课前唱的一首歌曲,希望可以喜欢<br><del>所以我什么时候才能有对象呢</del></p><hr><p>庆祝本站第一次可以播放视频</p><iframe width="560" height="315" src="https://www.youtube.com/embed/AW3RspM7v9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;2021</summary>
-        
-      
-    
-    
     
     
   </entry>
