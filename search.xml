@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>如何在 Windows 11 上使用真正的IE浏览器</title>
+      <link href="/2022/02/28/12/47.html"/>
+      <url>/2022/02/28/12/47.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>此文介绍的内容并非是使用 Microsoft Edge 的 IE 兼容模式</p></blockquote><blockquote><p>本文的测试环境为 Windows 11 Pro Build 22000.527</p></blockquote><blockquote><p>使用位于 C:\Program Files\Internet Explorer 下的 iexplore.exe 仍然为 Microsoft Edge，这意味着将IE固定至任务栏或者开始菜单后单击打开仍然是 Microsoft Edge</p></blockquote><p>首先在Windows 11 的开始菜单中搜索 <strong>网络选项</strong> (Internet Options) 并打开</p><p><img src="/images/%E5%A6%82%E4%BD%95%E5%9C%A8_Windows_11_%E4%B8%8A%E4%BD%BF%E7%94%A8%E7%9C%9F%E6%AD%A3%E7%9A%84IE%E6%B5%8F%E8%A7%88%E5%99%A8/Internet_Options.png" alt="Internet Options"></p><p>找到<strong>隐私选项卡</strong> (Privacy)下的<strong>弹出窗口阻止程序</strong> (Pop-up_Blocker)项，并单击设置</p><p><img src="/images/%E5%A6%82%E4%BD%95%E5%9C%A8_Windows_11_%E4%B8%8A%E4%BD%BF%E7%94%A8%E7%9C%9F%E6%AD%A3%E7%9A%84IE%E6%B5%8F%E8%A7%88%E5%99%A8/Internet_Properties.png" alt="Internet Properties"></p><p>点击最下面的<strong>了解有关弹出窗口阻止程序的更多信息</strong> (Learn more about pop-up blocker)</p><p><img src="/images/%E5%A6%82%E4%BD%95%E5%9C%A8_Windows_11_%E4%B8%8A%E4%BD%BF%E7%94%A8%E7%9C%9F%E6%AD%A3%E7%9A%84IE%E6%B5%8F%E8%A7%88%E5%99%A8/Pop-up_Blocker_Settings.png" alt="Pop-up Blocker Settings"></p><p>大功告成！现在我们可以用IE访问任何我们想访问的网站了</p><p><img src="/images/%E5%A6%82%E4%BD%95%E5%9C%A8_Windows_11_%E4%B8%8A%E4%BD%BF%E7%94%A8%E7%9C%9F%E6%AD%A3%E7%9A%84IE%E6%B5%8F%E8%A7%88%E5%99%A8/IE.png" alt="IE"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2021 杂记</title>
       <link href="/2021/12/31/22/19.html"/>
       <url>/2021/12/31/22/19.html</url>
@@ -154,6 +167,17 @@
     
     
     <entry>
+      <title>gallery</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>About QuantumAlgorithm</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -168,17 +192,6 @@
       <title>links</title>
       <link href="/links/index.html"/>
       <url>/links/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>gallery</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
