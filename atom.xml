@@ -6,7 +6,7 @@
   <link href="https://qamoe.cyou/atom.xml" rel="self"/>
   
   <link href="https://qamoe.cyou/"/>
-  <updated>2022-02-28T05:17:36.120Z</updated>
+  <updated>2021-08-12T15:13:05.034Z</updated>
   <id>https://qamoe.cyou/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://qamoe.cyou/2023/03/28/12/29"/>
+    <id>https://qamoe.cyou/2023/03/28/12/29</id>
+    <published>2023-03-28T04:29:35.662Z</published>
+    <updated>2021-08-12T15:13:05.034Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>如何在 Windows 11 上使用真正的IE浏览器</title>
@@ -112,29 +135,6 @@
     
     
     <category term="uncategorized" scheme="https://qamoe.cyou/tags/uncategorized/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>针对 QuantumAlgorithm&#39;s Portal 网站防沉迷调整的说明</title>
-    <link href="https://qamoe.cyou/2021/08/31/21/39"/>
-    <id>https://qamoe.cyou/2021/08/31/21/39</id>
-    <published>2021-08-31T13:39:46.000Z</published>
-    <updated>2021-08-31T13:41:46.757Z</updated>
-    
-    <content type="html"><![CDATA[<p>为了积极响应国家新闻出版署印发的 《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》,守护未成年的健康环境,引导未成年健康享受学习生活,QuantumAlgorithm’s Portal 网站防沉迷系统将于2021年8月31日0点进行调整。</p><p>根据相关通知要求:</p><p>调整后 QuantumAlgorithm’s Portal 网站 仅会在周五、周六、周日和法定节假日的20时至21时,向未成年访客提供一小时的访问时长。(不可累计)<br>此外, QuantumAlgorithm’s Portal 网站不会以任何形式向未实名注册或登录的访客提供网页访问服务或访问时长。(仅限中国大陆地区)<br>关于未成年防沉迷系统进行相应调整后可能带来的修改体验计划,我们将尽快在后续提供处理说明,请关注官方公告。</p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;为了积极响应国家新闻出版</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
