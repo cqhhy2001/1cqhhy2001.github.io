@@ -167,6 +167,17 @@
     
     
     <entry>
+      <title>gallery</title>
+      <link href="/blog/gallery/index.html"/>
+      <url>/blog/gallery/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>About QuantumAlgorithm</title>
       <link href="/blog/about/index.html"/>
       <url>/blog/about/index.html</url>
@@ -181,17 +192,6 @@
       <title>links</title>
       <link href="/blog/links/index.html"/>
       <url>/blog/links/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>gallery</title>
-      <link href="/blog/gallery/index.html"/>
-      <url>/blog/gallery/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
